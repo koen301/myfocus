@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="../dist/myfocus-2.0.4.full.js"></script>
+
+<title>myfocus</title>
+<style>
+body{ line-height: 1.5em;}
+</style>
+</head>
+
+<body>
+>> 传统前端模板渲染模式：
+<div id="myTemplate_m1">
+    
+</div>
+
+>> 类Smarty直接渲染模式：
+<div id="myTemplate_m2">
+    <!--[each $userList]-->
+	    <li>索引：<!--[$index]-->，名称：<!--[$item]--></li>
+	<!--[/each]-->
+</div>
+
+<!-- 传统模式的script标签模板 -->
+<script type="text/fxtpl" id="tpl">
+	<!--[each $userList]-->
+	    <li>索引：<!--[$index]-->，名称：<!--[$item]--></li>
+	<!--[/each]-->
+</script>
+
+<script>
+var data = {
+    userList: [
+    	'Jack',
+    	'Lily',
+    	'Koen'
+    ]
+};
+//传统前端模板渲染模式
+var html = Fxtpl.render('tpl', data);
+document.getElementById('myTemplate_m1').innerHTML = html;
+
+//类Smarty直接渲染模式
+Fxtpl.render('myTemplate_m2', data);
+</script>
+</body>
+</html>
