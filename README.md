@@ -3,7 +3,7 @@ myFocus v2.0.4
 
 myFocus是一个专注于WEB端焦点图/轮换图的JS库
 
-### 特点
+## 特点
 
 * 原生JS编写，独立无依赖
 * 性能卓越，同样效果比jQuery更流畅
@@ -14,7 +14,7 @@ myFocus是一个专注于WEB端焦点图/轮换图的JS库
 * 支持 IE6+ / Chrome / Firefox 等现代浏览器
 * 支持自定义开发扩展
 
-### 用法
+## 用法
 
 #### HTML:
 
@@ -56,7 +56,7 @@ myFocus是一个专注于WEB端焦点图/轮换图的JS库
 
 更多效果/详细用法/API，请参考[百度“myfocus”>>](http://www.baidu.com/s?wd=myfocus)。
 
-### 下载
+## 下载
 
 请到 [dist](https://github.com/koen301/myfocus/tree/gh-pages/dist) 目录下载 myfocus 的min版(压缩)或full版(无压缩)，并在子目录“mf-pattern”选择风格下载。
 
