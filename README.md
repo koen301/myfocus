@@ -45,9 +45,10 @@ myFocus是一个专注于WEB端焦点图/轮换图的JS库
 
 	myFocus.set({
 	    id: 'boxID',//焦点图盒子ID
-	    pattern: 'mF_shutters',//焦点图风格的名称
+	    pattern: 'mF_tbhuabao',//焦点图风格的名称
 	    time: 3,//切换时间间隔(秒)
-	    trigger: 'click',//触发切换模式:'click'(点击)/'mouseover'(悬停)
+	    trigger: 'mouseover',//触发切换模式:'click'(点击)/'mouseover'(悬停)
+	    delay: 200,//'mouseover'模式下的切换延迟(毫秒)
 	    txtHeight: 'default'//标题高度设置(像素),'default'为默认CSS高度，0为隐藏
 	});
 
