@@ -1,0 +1,4 @@
+myfocus
+=======
+
+myFocus JavaScript Library
