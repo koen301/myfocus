@@ -32,9 +32,78 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <h1>
-<a name="myfocus" class="anchor" href="#myfocus"><span class="octicon octicon-link"></span></a>myfocus</h1>
+<a name="myfocus-v204" class="anchor" href="#myfocus-v204"><span class="octicon octicon-link"></span></a>myFocus v2.0.4</h1>
 
-<p>myFocus JavaScript Library</p>
+<p>myFocus是一个专注于WEB端焦点图/轮换图的JS库</p>
+
+<h2>
+<a name="%E7%89%B9%E7%82%B9" class="anchor" href="#%E7%89%B9%E7%82%B9"><span class="octicon octicon-link"></span></a>特点</h2>
+
+<ul>
+<li>原生JS编写，独立无依赖</li>
+<li>性能卓越，同样效果比jQuery更流畅</li>
+<li>简单易用，傻瓜式API和标准HTML结构</li>
+<li>效果华丽，媲美Flash焦点图</li>
+<li>功能强大，30多种风格切换，支持N种常用设置</li>
+<li>体积小巧，仅5.93KB(minified &amp; gzipped)</li>
+<li>支持 IE6+ / Chrome / Firefox 等现代浏览器</li>
+<li>支持自定义开发扩展</li>
+</ul><h2>
+<a name="%E7%94%A8%E6%B3%95" class="anchor" href="#%E7%94%A8%E6%B3%95"><span class="octicon octicon-link"></span></a>用法</h2>
+
+<h4>
+<a name="html" class="anchor" href="#html"><span class="octicon octicon-link"></span></a>HTML:</h4>
+
+<pre><code>&lt;!-- 焦点图盒子 --&gt;
+&lt;div id="boxID"&gt;
+  &lt;!-- 载入中的Loading图片(可选) --&gt;
+  &lt;div class="loading"&gt;&lt;img src="img/loading.gif" alt="请稍候..." /&gt;&lt;/div&gt;
+  &lt;!-- 内容列表 --&gt;
+  &lt;div class="pic"&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href="#"&gt;&lt;img src="img/1.jpg" alt="标题1" /&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;&lt;img src="img/2.jpg" alt="标题2" /&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;&lt;img src="img/3.jpg" alt="标题3" /&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;&lt;img src="img/4.jpg" alt="标题4" /&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;&lt;img src="img/5.jpg" alt="标题5" /&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;!-- 你可以根据需要添加更多的列 --&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<h4>
+<a name="js" class="anchor" href="#js"><span class="octicon octicon-link"></span></a>JS:</h4>
+
+<pre><code>myFocus.set({id: 'boxID'});
+</code></pre>
+
+<p><a href="http://koen301.github.io/myfocus/demo/base.html">查看效果&gt;&gt; </a></p>
+
+<p>当然，你可以使用更多自定义的设置，例如：</p>
+
+<pre><code>myFocus.set({
+    id: 'boxID',//焦点图盒子ID
+    pattern: 'mF_tbhuabao',//焦点图风格的名称
+    time: 3,//切换时间间隔(秒)
+    trigger: 'mouseover',//触发切换模式:'click'(点击)/'mouseover'(悬停)
+    delay: 200,//'mouseover'模式下的切换延迟(毫秒)
+    txtHeight: 'default'//标题高度设置(像素),'default'为默认CSS高度，0为隐藏
+});
+</code></pre>
+
+<p><a href="http://koen301.github.io/myfocus/demo/custom.html">查看效果&gt;&gt; </a></p>
+
+<p>更多效果/详细用法/API，请参考<a href="http://www.baidu.com/s?wd=myfocus">百度“myfocus”&gt;&gt;</a>。</p>
+
+<h2>
+<a name="%E4%B8%8B%E8%BD%BD" class="anchor" href="#%E4%B8%8B%E8%BD%BD"><span class="octicon octicon-link"></span></a>下载</h2>
+
+<p>请到 <a href="https://github.com/koen301/myfocus/tree/gh-pages/dist">dist</a> 目录下载 myfocus 的min版(压缩)或full版(无压缩)，并在子目录“mf-pattern”选择风格下载。</p>
+
+<p>注意：myfocus 运行时会自动寻找其子目录“mf-pattern”下相应的风格文件，所以“mf-pattern”文件夹一定要存在。</p>
+
+<p><a href="http://koen301.github.io/myfocus/pack/myfocus.zip">打包下载 myfocus 及它的所有风格文件&gt;&gt;</a></p>
       </section>
     </div>
 
