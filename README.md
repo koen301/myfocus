@@ -9,7 +9,7 @@ myFocus是一个专注于WEB端焦点图/轮换图的JS库
 * 性能卓越，同样效果比jQuery更流畅
 * 简单易用，傻瓜式API和标准HTML结构
 * 效果华丽，媲美Flash焦点图
-* 功能强大，30多种效果切换，支持N种常用设置
+* 功能强大，30多种风格切换，支持N种常用设置
 * 体积小巧，仅5.93KB(minified & gzipped)
 * 支持 IE6+ / Chrome / Firefox 等现代浏览器
 * 支持自定义开发扩展
@@ -58,8 +58,8 @@ myFocus是一个专注于WEB端焦点图/轮换图的JS库
 
 ### 下载
 
-请到 [dist](https://github.com/koen301/myfocus/tree/gh-pages/dist) 目录下载 myfocus 的min版（压缩）或full版（无压缩），并在其子目录“mf-pattern”选择相应的风格下载。
+请到 [dist](https://github.com/koen301/myfocus/tree/gh-pages/dist) 目录下载 myfocus 的min版(压缩)或full版(无压缩)，并在子目录“mf-pattern”选择风格下载。
 
-注意：myfocus 运行时会自动寻找其子目录“mf-pattern”下相应的风格文件，所以“mf-pattern”文件夹不能重命名或删除。
+注意：myfocus 运行时会自动寻找其子目录“mf-pattern”下相应的风格文件，所以“mf-pattern”文件夹一定要存在。
 
 [打包下载 myfocus 及它的所有风格文件>>](http://koen301.github.io/myfocus/pack/myfocus.zip)
