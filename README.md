@@ -63,3 +63,9 @@ myFocus是一个专注于WEB端焦点图/轮换图的JS库
 注意：myfocus 运行时会自动寻找其子目录“mf-pattern”下相应的风格文件，所以“mf-pattern”文件夹一定要存在。
 
 [打包下载 myfocus 及它的所有风格文件>>](http://koen301.github.io/myfocus/pack/myfocus.zip)
+
+## 版本 & 问题
+
+myFocus从v2.0.4开始转移到github，后续版本（如果有）也会在这里更新。
+
+相关问题欢迎在[Issues](https://github.com/koen301/myfocus/issues)中提出。
